@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd">
+
+
+    <!-- 配置事务管理器 -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <bean name="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+
+    <!-- Transaction Advisor -->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="doFind*"  propagation="REQUIRED"/>
+            <tx:method name="find*"   propagation="REQUIRED"/>
+            <tx:method name="get*"    propagation="REQUIRED"/>
+            <tx:method name="check*"  propagation="REQUIRED"/>
+            <tx:method name="doGet*"   propagation="REQUIRED"/>
+            <tx:method name="doDelete*" propagation="REQUIRED"/>
+            <tx:method name="doSave*" propagation="REQUIRED"/>
+            <tx:method name="doUpdate*" propagation="REQUIRED"/>
+            <tx:method name="save*"  propagation="REQUIRED"/>
+            <tx:method name="update*" propagation="REQUIRED"/>
+            <tx:method name="delete*" propagation="REQUIRED"/>
+            <tx:method name="setting*" propagation="REQUIRED"/>
+            <tx:method name="finish*" propagation="REQUIRED"/>
+            <tx:method name="unlock*" propagation="REQUIRED"/>
+            <tx:method name="lock*" propagation="REQUIRED"/>
+            <tx:method name="submit*" propagation="REQUIRED"/>
+            <tx:method name="commit*" propagation="REQUIRED"/>
+            <tx:method name="reject*" propagation="REQUIRED"/>
+            <tx:method name="accept*" propagation="REQUIRED"/>
+            <tx:method name="autoDispatch*" propagation="REQUIRED"/>
+            <tx:method name="dispatch*" propagation="REQUIRED"/>
+            <tx:method name="*" propagation="SUPPORTS"/>
+            <!-- 必须在事务中运行 -->
+        </tx:attributes>
+    </tx:advice>
+
+    <!-- AOP Configuration -->
+    <aop:config proxy-target-class="true">
+        <aop:advisor id="serviceTx" advice-ref="txAdvice" pointcut="execution(* *..*Service.*(..))"/>
+    </aop:config>
+</beans>

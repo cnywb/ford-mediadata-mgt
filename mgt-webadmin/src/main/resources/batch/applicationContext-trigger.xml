@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:batch="http://www.springframework.org/schema/batch"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch.xsd
+	http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd">
+
+	<!-- 定时任务配置 -->
+	<task:scheduled-tasks>
+
+		<!-- 易湃订单转换 -->
+		<task:scheduled ref="orderTransJobTrigger" method="commonOrderToObJob"
+			cron="0 0 1 * * ?" />
+
+		<!-- 易湃话单转换 -->
+		<task:scheduled ref="orderTransJobTrigger" method="callOrderToObJob"
+			cron="0 0 2 * * ?" />
+
+		<!-- 车商汇订单转换 -->
+		<task:scheduled ref="orderTransJobTrigger" method="cshOrderToObJob"
+			cron="0 0 3 * * ?" />
+
+		<!-- 车商汇话单转换 -->
+		<task:scheduled ref="orderTransJobTrigger" method="cshCallToObJob"
+			cron="0 0 4 * * ?" />
+
+		<!-- SAP数据写入 -->
+		<!-- <task:scheduled ref="transSapTrigger" method="execute"
+			cron="0 0 10-23 * * ?" /> -->
+
+	</task:scheduled-tasks>
+
+</beans>

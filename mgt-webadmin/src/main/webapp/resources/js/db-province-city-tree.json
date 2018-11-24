@@ -1,0 +1,6071 @@
+[
+	{
+		"canSelect": true,
+		"children": [
+			{
+				"attr": {
+					"province": "北京"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "北京",
+							"province": "北京"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "北京",
+						"treeId": "北京"
+					},
+					{
+						"attr": {
+							"city": "亦庄",
+							"province": "北京"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "亦庄",
+						"treeId": "亦庄"
+					},
+					{
+						"attr": {
+							"city": "顺义",
+							"province": "北京"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "顺义",
+						"treeId": "顺义"
+					},
+					{
+						"attr": {
+							"city": "通州",
+							"province": "北京"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "通州",
+						"treeId": "通州"
+					},
+					{
+						"attr": {
+							"city": "石景山",
+							"province": "北京"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "石景山",
+						"treeId": "石景山"
+					},
+					{
+						"attr": {
+							"city": "北京房山",
+							"province": "北京"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "北京房山",
+						"treeId": "北京房山"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "北京",
+				"treeId": "P_北京"
+			},
+			{
+				"attr": {
+					"province": "重庆"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "重庆",
+							"province": "重庆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "重庆",
+						"treeId": "重庆"
+					},
+					{
+						"attr": {
+							"city": "江津",
+							"province": "重庆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "江津",
+						"treeId": "江津"
+					},
+					{
+						"attr": {
+							"city": "永川",
+							"province": "重庆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "永川",
+						"treeId": "永川"
+					},
+					{
+						"attr": {
+							"city": "涪陵",
+							"province": "重庆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "涪陵",
+						"treeId": "涪陵"
+					},
+					{
+						"attr": {
+							"city": "万州",
+							"province": "重庆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "万州",
+						"treeId": "万州"
+					},
+					{
+						"attr": {
+							"city": "合川",
+							"province": "重庆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "合川",
+						"treeId": "合川"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "重庆",
+				"treeId": "P_重庆"
+			},
+			{
+				"attr": {
+					"province": "新疆"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "伊宁",
+							"province": "新疆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "伊宁",
+						"treeId": "伊宁"
+					},
+					{
+						"attr": {
+							"city": "乌鲁木齐",
+							"province": "新疆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "乌鲁木齐",
+						"treeId": "乌鲁木齐"
+					},
+					{
+						"attr": {
+							"city": "阿克苏",
+							"province": "新疆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "阿克苏",
+						"treeId": "阿克苏"
+					},
+					{
+						"attr": {
+							"city": "克拉玛依",
+							"province": "新疆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "克拉玛依",
+						"treeId": "克拉玛依"
+					},
+					{
+						"attr": {
+							"city": "昌吉",
+							"province": "新疆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "昌吉",
+						"treeId": "昌吉"
+					},
+					{
+						"attr": {
+							"city": "哈密",
+							"province": "新疆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "哈密",
+						"treeId": "哈密"
+					},
+					{
+						"attr": {
+							"city": "库尔勒",
+							"province": "新疆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "库尔勒",
+						"treeId": "库尔勒"
+					},
+					{
+						"attr": {
+							"city": "伊犁",
+							"province": "新疆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "伊犁",
+						"treeId": "伊犁"
+					},
+					{
+						"attr": {
+							"city": "奎屯",
+							"province": "新疆"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "奎屯",
+						"treeId": "奎屯"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "新疆",
+				"treeId": "P_新疆"
+			},
+			{
+				"attr": {
+					"province": "广东"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "揭阳",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "揭阳",
+						"treeId": "揭阳"
+					},
+					{
+						"attr": {
+							"city": "里水",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "里水",
+						"treeId": "里水"
+					},
+					{
+						"attr": {
+							"city": "增城",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "增城",
+						"treeId": "增城"
+					},
+					{
+						"attr": {
+							"city": "江门",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "江门",
+						"treeId": "江门"
+					},
+					{
+						"attr": {
+							"city": "云浮",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "云浮",
+						"treeId": "云浮"
+					},
+					{
+						"attr": {
+							"city": "阳江",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "阳江",
+						"treeId": "阳江"
+					},
+					{
+						"attr": {
+							"city": "清远",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "清远",
+						"treeId": "清远"
+					},
+					{
+						"attr": {
+							"city": "顺德",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "顺德",
+						"treeId": "顺德"
+					},
+					{
+						"attr": {
+							"city": "惠州",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "惠州",
+						"treeId": "惠州"
+					},
+					{
+						"attr": {
+							"city": "深圳",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "深圳",
+						"treeId": "深圳"
+					},
+					{
+						"attr": {
+							"city": "珠海",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "珠海",
+						"treeId": "珠海"
+					},
+					{
+						"attr": {
+							"city": "番禺",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "番禺",
+						"treeId": "番禺"
+					},
+					{
+						"attr": {
+							"city": "汕尾",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "汕尾",
+						"treeId": "汕尾"
+					},
+					{
+						"attr": {
+							"city": "佛山",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "佛山",
+						"treeId": "佛山"
+					},
+					{
+						"attr": {
+							"city": "潮州",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "潮州",
+						"treeId": "潮州"
+					},
+					{
+						"attr": {
+							"city": "河源",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "河源",
+						"treeId": "河源"
+					},
+					{
+						"attr": {
+							"city": "肇庆",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "肇庆",
+						"treeId": "肇庆"
+					},
+					{
+						"attr": {
+							"city": "广州",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "广州",
+						"treeId": "广州"
+					},
+					{
+						"attr": {
+							"city": "萝岗",
+							"province": "萝岗"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "萝岗",
+						"treeId": "萝岗"
+					},
+					{
+						"attr": {
+							"city": "中山",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "中山",
+						"treeId": "中山"
+					},
+					{
+						"attr": {
+							"city": "茂名",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "茂名",
+						"treeId": "茂名"
+					},
+					{
+						"attr": {
+							"city": "湛江",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "湛江",
+						"treeId": "湛江"
+					},
+					{
+						"attr": {
+							"city": "梅州",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "梅州",
+						"treeId": "梅州"
+					},
+					{
+						"attr": {
+							"city": "韶关",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "韶关",
+						"treeId": "韶关"
+					},
+					{
+						"attr": {
+							"city": "花都",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "花都",
+						"treeId": "花都"
+					},
+					{
+						"attr": {
+							"city": "东莞",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "东莞",
+						"treeId": "东莞"
+					},
+					{
+						"attr": {
+							"city": "南海",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "南海",
+						"treeId": "南海"
+					},
+					{
+						"attr": {
+							"city": "汕头",
+							"province": "广东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "汕头",
+						"treeId": "汕头"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "广东",
+				"treeId": "P_广东"
+			},
+			{
+				"attr": {
+					"province": "浙江"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "永康",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "永康",
+						"treeId": "永康"
+					},
+					{
+						"attr": {
+							"city": "临海",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "临海",
+						"treeId": "临海"
+					},
+					{
+						"attr": {
+							"city": "余姚",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "余姚",
+						"treeId": "余姚"
+					},
+					{
+						"attr": {
+							"city": "海宁",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "海宁",
+						"treeId": "海宁"
+					},
+					{
+						"attr": {
+							"city": "长兴",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "长兴",
+						"treeId": "长兴"
+					},
+					{
+						"attr": {
+							"city": "瑞安",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "瑞安",
+						"treeId": "瑞安"
+					},
+					{
+						"attr": {
+							"city": "苍南",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "苍南",
+						"treeId": "苍南"
+					},
+					{
+						"attr": {
+							"city": "柯桥",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "柯桥",
+						"treeId": "柯桥"
+					},
+					{
+						"attr": {
+							"city": "湖州",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "湖州",
+						"treeId": "湖州"
+					},
+					{
+						"attr": {
+							"city": "富阳",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "富阳",
+						"treeId": "富阳"
+					},
+					{
+						"attr": {
+							"city": "东阳",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "东阳",
+						"treeId": "东阳"
+					},
+					{
+						"attr": {
+							"city": "丽水",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "丽水",
+						"treeId": "丽水"
+					},
+					{
+						"attr": {
+							"city": "安吉",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "安吉",
+						"treeId": "安吉"
+					},
+					{
+						"attr": {
+							"city": "嘉兴",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "嘉兴",
+						"treeId": "嘉兴"
+					},
+					{
+						"attr": {
+							"city": "临安",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "临安",
+						"treeId": "临安"
+					},
+					{
+						"attr": {
+							"city": "杭州",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "杭州",
+						"treeId": "杭州"
+					},
+					{
+						"attr": {
+							"city": "海盐",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "海盐",
+						"treeId": "海盐"
+					},
+					{
+						"attr": {
+							"city": "金华",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "金华",
+						"treeId": "金华"
+					},
+					{
+						"attr": {
+							"city": "诸暨",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "诸暨",
+						"treeId": "诸暨"
+					},
+					{
+						"attr": {
+							"city": "温州",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "温州",
+						"treeId": "温州"
+					},
+					{
+						"attr": {
+							"city": "慈溪",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "慈溪",
+						"treeId": "慈溪"
+					},
+					{
+						"attr": {
+							"city": "宁波",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宁波",
+						"treeId": "宁波"
+					},
+					{
+						"attr": {
+							"city": "上虞",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "上虞",
+						"treeId": "上虞"
+					},
+					{
+						"attr": {
+							"city": "嵊州",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "嵊州",
+						"treeId": "嵊州"
+					},
+					{
+						"attr": {
+							"city": "乐清",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "乐清",
+						"treeId": "乐清"
+					},
+					{
+						"attr": {
+							"city": "平湖",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "平湖",
+						"treeId": "平湖"
+					},
+					{
+						"attr": {
+							"city": "温岭",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "温岭",
+						"treeId": "温岭"
+					},
+					{
+						"attr": {
+							"city": "绍兴",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "绍兴",
+						"treeId": "绍兴"
+					},
+					{
+						"attr": {
+							"city": "桐乡",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "桐乡",
+						"treeId": "桐乡"
+					},
+					{
+						"attr": {
+							"city": "义乌",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "义乌",
+						"treeId": "义乌"
+					},
+					{
+						"attr": {
+							"city": "衢州",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "衢州",
+						"treeId": "衢州"
+					},
+					{
+						"attr": {
+							"city": "台州",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "台州",
+						"treeId": "台州"
+					},
+					{
+						"attr": {
+							"city": "舟山",
+							"province": "浙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "舟山",
+						"treeId": "舟山"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "浙江",
+				"treeId": "P_浙江"
+			},
+			{
+				"attr": {
+					"province": "天津"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "静海",
+							"province": "天津"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "静海",
+						"treeId": "静海"
+					},
+					{
+						"attr": {
+							"city": "天津",
+							"province": "天津"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "天津",
+						"treeId": "天津"
+					},
+					{
+						"attr": {
+							"city": "塘沽",
+							"province": "天津"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "塘沽",
+						"treeId": "塘沽"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "天津",
+				"treeId": "P_天津"
+			},
+			{
+				"attr": {
+					"province": "广西"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "南宁",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "南宁",
+						"treeId": "南宁"
+					},
+					{
+						"attr": {
+							"city": "贺州",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "贺州",
+						"treeId": "贺州"
+					},
+					{
+						"attr": {
+							"city": "北海",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "北海",
+						"treeId": "北海"
+					},
+					{
+						"attr": {
+							"city": "河池",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "河池",
+						"treeId": "河池"
+					},
+					{
+						"attr": {
+							"city": "柳州",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "柳州",
+						"treeId": "柳州"
+					},
+					{
+						"attr": {
+							"city": "贵港",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "贵港",
+						"treeId": "贵港"
+					},
+					{
+						"attr": {
+							"city": "钦州",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "钦州",
+						"treeId": "钦州"
+					},
+					{
+						"attr": {
+							"city": "百色",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "百色",
+						"treeId": "百色"
+					},
+					{
+						"attr": {
+							"city": "防城港",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "防城港",
+						"treeId": "防城港"
+					},
+					{
+						"attr": {
+							"city": "梧州",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "梧州",
+						"treeId": "梧州"
+					},
+					{
+						"attr": {
+							"city": "玉林",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "玉林",
+						"treeId": "玉林"
+					},
+					{
+						"attr": {
+							"city": "桂林",
+							"province": "广西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "桂林",
+						"treeId": "桂林"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "广西",
+				"treeId": "P_广西"
+			},
+			{
+				"attr": {
+					"province": "内蒙古"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "鄂尔多斯",
+							"province": "内蒙古"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "鄂尔多斯",
+						"treeId": "鄂尔多斯"
+					},
+					{
+						"attr": {
+							"city": "赤峰",
+							"province": "内蒙古"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "赤峰",
+						"treeId": "赤峰"
+					},
+					{
+						"attr": {
+							"city": "呼和浩特",
+							"province": "内蒙古"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "呼和浩特",
+						"treeId": "呼和浩特"
+					},
+					{
+						"attr": {
+							"city": "包头",
+							"province": "内蒙古"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "包头",
+						"treeId": "包头"
+					},
+					{
+						"attr": {
+							"city": "锡林郭勒",
+							"province": "内蒙古"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "锡林郭勒",
+						"treeId": "锡林郭勒"
+					},
+					{
+						"attr": {
+							"city": "乌海",
+							"province": "内蒙古"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "乌海",
+						"treeId": "乌海"
+					},
+					{
+						"attr": {
+							"city": "通辽",
+							"province": "内蒙古"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "通辽",
+						"treeId": "通辽"
+					},
+					{
+						"attr": {
+							"city": "巴彦淖尔盟",
+							"province": "内蒙古"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "巴彦淖尔盟",
+						"treeId": "巴彦淖尔盟"
+					},
+					{
+						"attr": {
+							"city": "乌兰浩特",
+							"province": "内蒙古"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "乌兰浩特",
+						"treeId": "乌兰浩特"
+					},
+					{
+						"attr": {
+							"city": "呼伦贝尔",
+							"province": "内蒙古"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "呼伦贝尔",
+						"treeId": "呼伦贝尔"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "内蒙古",
+				"treeId": "P_内蒙古"
+			},
+			{
+				"attr": {
+					"province": "宁夏"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "石嘴山",
+							"province": "宁夏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "石嘴山",
+						"treeId": "石嘴山"
+					},
+					{
+						"attr": {
+							"city": "中卫",
+							"province": "宁夏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "中卫",
+						"treeId": "中卫"
+					},
+					{
+						"attr": {
+							"city": "银川",
+							"province": "宁夏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "银川",
+						"treeId": "银川"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "宁夏",
+				"treeId": "P_宁夏"
+			},
+			{
+				"attr": {
+					"province": "江西"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "上饶",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "上饶",
+						"treeId": "上饶"
+					},
+					{
+						"attr": {
+							"city": "南康",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "南康",
+						"treeId": "南康"
+					},
+					{
+						"attr": {
+							"city": "景德镇",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "景德镇",
+						"treeId": "景德镇"
+					},
+					{
+						"attr": {
+							"city": "宜春",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宜春",
+						"treeId": "宜春"
+					},
+					{
+						"attr": {
+							"city": "新余",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "新余",
+						"treeId": "新余"
+					},
+					{
+						"attr": {
+							"city": "吉安",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "吉安",
+						"treeId": "吉安"
+					},
+					{
+						"attr": {
+							"city": "抚州",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "抚州",
+						"treeId": "抚州"
+					},
+					{
+						"attr": {
+							"city": "赣州",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "赣州",
+						"treeId": "赣州"
+					},
+					{
+						"attr": {
+							"city": "南昌",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "南昌",
+						"treeId": "南昌"
+					},
+					{
+						"attr": {
+							"city": "高安",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "高安",
+						"treeId": "高安"
+					},
+					{
+						"attr": {
+							"city": "九江",
+							"province": "江西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "九江",
+						"treeId": "九江"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "江西",
+				"treeId": "P_江西"
+			},
+			{
+				"attr": {
+					"province": "贵州"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "贵阳",
+							"province": "贵州"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "贵阳",
+						"treeId": "贵阳"
+					},
+					{
+						"attr": {
+							"city": "凯里",
+							"province": "贵州"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "凯里",
+						"treeId": "凯里"
+					},
+					{
+						"attr": {
+							"city": "遵义",
+							"province": "贵州"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "遵义",
+						"treeId": "遵义"
+					},
+					{
+						"attr": {
+							"city": "安顺",
+							"province": "贵州"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "安顺",
+						"treeId": "安顺"
+					},
+					{
+						"attr": {
+							"city": "铜仁",
+							"province": "贵州"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "铜仁",
+						"treeId": "铜仁"
+					},
+					{
+						"attr": {
+							"city": "六盘水",
+							"province": "贵州"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "六盘水",
+						"treeId": "六盘水"
+					},
+					{
+						"attr": {
+							"city": "毕节",
+							"province": "贵州"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "毕节",
+						"treeId": "毕节"
+					},
+					{
+						"attr": {
+							"city": "兴义",
+							"province": "贵州"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "兴义",
+						"treeId": "兴义"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "贵州",
+				"treeId": "P_贵州"
+			},
+			{
+				"attr": {
+					"province": "安徽"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "六安",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "六安",
+						"treeId": "六安"
+					},
+					{
+						"attr": {
+							"city": "蚌埠",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "蚌埠",
+						"treeId": "蚌埠"
+					},
+					{
+						"attr": {
+							"city": "芜湖",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "芜湖",
+						"treeId": "芜湖"
+					},
+					{
+						"attr": {
+							"city": "池州",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "池州",
+						"treeId": "池州"
+					},
+					{
+						"attr": {
+							"city": "蒙城",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "蒙城",
+						"treeId": "蒙城"
+					},
+					{
+						"attr": {
+							"city": "安庆",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "安庆",
+						"treeId": "安庆"
+					},
+					{
+						"attr": {
+							"city": "铜陵",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "铜陵",
+						"treeId": "铜陵"
+					},
+					{
+						"attr": {
+							"city": "黄山",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "黄山",
+						"treeId": "黄山"
+					},
+					{
+						"attr": {
+							"city": "淮南",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "淮南",
+						"treeId": "淮南"
+					},
+					{
+						"attr": {
+							"city": "亳州",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "亳州",
+						"treeId": "亳州"
+					},
+					{
+						"attr": {
+							"city": "宿州",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宿州",
+						"treeId": "宿州"
+					},
+					{
+						"attr": {
+							"city": "巢湖",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "巢湖",
+						"treeId": "巢湖"
+					},
+					{
+						"attr": {
+							"city": "滁州",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "滁州",
+						"treeId": "滁州"
+					},
+					{
+						"attr": {
+							"city": "包河",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "包河",
+						"treeId": "包河"
+					},
+					{
+						"attr": {
+							"city": "阜阳",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "阜阳",
+						"treeId": "阜阳"
+					},
+					{
+						"attr": {
+							"city": "淮北",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "淮北",
+						"treeId": "淮北"
+					},
+					{
+						"attr": {
+							"city": "马鞍山",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "马鞍山",
+						"treeId": "马鞍山"
+					},
+					{
+						"attr": {
+							"city": "合肥",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "合肥",
+						"treeId": "合肥"
+					},
+					{
+						"attr": {
+							"city": "宣城",
+							"province": "安徽"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宣城",
+						"treeId": "宣城"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "安徽",
+				"treeId": "P_安徽"
+			},
+			{
+				"attr": {
+					"province": "陕西"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "西安",
+							"province": "陕西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "西安",
+						"treeId": "西安"
+					},
+					{
+						"attr": {
+							"city": "渭南",
+							"province": "陕西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "渭南",
+						"treeId": "渭南"
+					},
+					{
+						"attr": {
+							"city": "延安",
+							"province": "陕西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "延安",
+						"treeId": "延安"
+					},
+					{
+						"attr": {
+							"city": "汉中",
+							"province": "陕西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "汉中",
+						"treeId": "汉中"
+					},
+					{
+						"attr": {
+							"city": "咸阳",
+							"province": "陕西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "咸阳",
+						"treeId": "咸阳"
+					},
+					{
+						"attr": {
+							"city": "商洛",
+							"province": "陕西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "商洛",
+						"treeId": "商洛"
+					},
+					{
+						"attr": {
+							"city": "宝鸡",
+							"province": "陕西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宝鸡",
+						"treeId": "宝鸡"
+					},
+					{
+						"attr": {
+							"city": "杨凌",
+							"province": "陕西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "杨凌",
+						"treeId": "杨凌"
+					},
+					{
+						"attr": {
+							"city": "榆林",
+							"province": "陕西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "榆林",
+						"treeId": "榆林"
+					},
+					{
+						"attr": {
+							"city": "安康",
+							"province": "陕西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "安康",
+						"treeId": "安康"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "陕西",
+				"treeId": "P_陕西"
+			},
+			{
+				"attr": {
+					"province": "辽宁"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "锦州",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "锦州",
+						"treeId": "锦州"
+					},
+					{
+						"attr": {
+							"city": "沈阳",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "沈阳",
+						"treeId": "沈阳"
+					},
+					{
+						"attr": {
+							"city": "营口",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "营口",
+						"treeId": "营口"
+					},
+					{
+						"attr": {
+							"city": "朝阳",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "朝阳",
+						"treeId": "朝阳"
+					},
+					{
+						"attr": {
+							"city": "抚顺",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "抚顺",
+						"treeId": "抚顺"
+					},
+					{
+						"attr": {
+							"city": "大连",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "大连",
+						"treeId": "大连"
+					},
+					{
+						"attr": {
+							"city": "辽阳",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "辽阳",
+						"treeId": "辽阳"
+					},
+					{
+						"attr": {
+							"city": "盘锦",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "盘锦",
+						"treeId": "盘锦"
+					},
+					{
+						"attr": {
+							"city": "丹东",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "丹东",
+						"treeId": "丹东"
+					},
+					{
+						"attr": {
+							"city": "葫芦岛",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "葫芦岛",
+						"treeId": "葫芦岛"
+					},
+					{
+						"attr": {
+							"city": "鞍山",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "鞍山",
+						"treeId": "鞍山"
+					},
+					{
+						"attr": {
+							"city": "阜新",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "阜新",
+						"treeId": "阜新"
+					},
+					{
+						"attr": {
+							"city": "铁岭",
+							"province": "辽宁"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "铁岭",
+						"treeId": "铁岭"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "辽宁",
+				"treeId": "P_辽宁"
+			},
+			{
+				"attr": {
+					"province": "山西"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "吕梁",
+							"province": "山西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "吕梁",
+						"treeId": "吕梁"
+					},
+					{
+						"attr": {
+							"city": "晋中",
+							"province": "山西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "晋中",
+						"treeId": "晋中"
+					},
+					{
+						"attr": {
+							"city": "阳泉",
+							"province": "山西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "阳泉",
+						"treeId": "阳泉"
+					},
+					{
+						"attr": {
+							"city": "忻州",
+							"province": "山西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "忻州",
+						"treeId": "忻州"
+					},
+					{
+						"attr": {
+							"city": "临汾",
+							"province": "山西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "临汾",
+						"treeId": "临汾"
+					},
+					{
+						"attr": {
+							"city": "太原",
+							"province": "山西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "太原",
+						"treeId": "太原"
+					},
+					{
+						"attr": {
+							"city": "长治",
+							"province": "山西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "长治",
+						"treeId": "长治"
+					},
+					{
+						"attr": {
+							"city": "运城",
+							"province": "山西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "运城",
+						"treeId": "运城"
+					},
+					{
+						"attr": {
+							"city": "晋城",
+							"province": "山西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "晋城",
+						"treeId": "晋城"
+					},
+					{
+						"attr": {
+							"city": "大同",
+							"province": "山西"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "大同",
+						"treeId": "大同"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "山西",
+				"treeId": "P_山西"
+			},
+			{
+				"attr": {
+					"province": "青海"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "西宁",
+							"province": "青海"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "西宁",
+						"treeId": "西宁"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "青海",
+				"treeId": "P_青海"
+			},
+			{
+				"attr": {
+					"province": "四川"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "遂宁",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "遂宁",
+						"treeId": "遂宁"
+					},
+					{
+						"attr": {
+							"city": "宜宾",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宜宾",
+						"treeId": "宜宾"
+					},
+					{
+						"attr": {
+							"city": "乐山",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "乐山",
+						"treeId": "乐山"
+					},
+					{
+						"attr": {
+							"city": "成都",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "成都",
+						"treeId": "成都"
+					},
+					{
+						"attr": {
+							"city": "攀枝花",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "攀枝花",
+						"treeId": "攀枝花"
+					},
+					{
+						"attr": {
+							"city": "广安",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "广安",
+						"treeId": "广安"
+					},
+					{
+						"attr": {
+							"city": "眉山",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "眉山",
+						"treeId": "眉山"
+					},
+					{
+						"attr": {
+							"city": "雅安",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "雅安",
+						"treeId": "雅安"
+					},
+					{
+						"attr": {
+							"city": "西昌",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "西昌",
+						"treeId": "西昌"
+					},
+					{
+						"attr": {
+							"city": "都江堰",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "都江堰",
+						"treeId": "都江堰"
+					},
+					{
+						"attr": {
+							"city": "泸州",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "泸州",
+						"treeId": "泸州"
+					},
+					{
+						"attr": {
+							"city": "内江",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "内江",
+						"treeId": "内江"
+					},
+					{
+						"attr": {
+							"city": "自贡",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "自贡",
+						"treeId": "自贡"
+					},
+					{
+						"attr": {
+							"city": "绵阳",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "绵阳",
+						"treeId": "绵阳"
+					},
+					{
+						"attr": {
+							"city": "达州",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "达州",
+						"treeId": "达州"
+					},
+					{
+						"attr": {
+							"city": "彭州",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "彭州",
+						"treeId": "彭州"
+					},
+					{
+						"attr": {
+							"city": "德阳",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "德阳",
+						"treeId": "德阳"
+					},
+					{
+						"attr": {
+							"city": "广元",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "广元",
+						"treeId": "广元"
+					},
+					{
+						"attr": {
+							"city": "南充",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "南充",
+						"treeId": "南充"
+					},
+					{
+						"attr": {
+							"city": "巴中",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "巴中",
+						"treeId": "巴中"
+					},
+					{
+						"attr": {
+							"city": "资阳",
+							"province": "四川"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "资阳",
+						"treeId": "资阳"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "四川",
+				"treeId": "P_四川"
+			},
+			{
+				"attr": {
+					"province": "江苏"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "盐城",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "盐城",
+						"treeId": "盐城"
+					},
+					{
+						"attr": {
+							"city": "溧阳",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "溧阳",
+						"treeId": "溧阳"
+					},
+					{
+						"attr": {
+							"city": "常熟",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "常熟",
+						"treeId": "常熟"
+					},
+					{
+						"attr": {
+							"city": "姜堰",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "姜堰",
+						"treeId": "姜堰"
+					},
+					{
+						"attr": {
+							"city": "仪征",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "仪征",
+						"treeId": "仪征"
+					},
+					{
+						"attr": {
+							"city": "东台",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "东台",
+						"treeId": "东台"
+					},
+					{
+						"attr": {
+							"city": "太仓",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "太仓",
+						"treeId": "太仓"
+					},
+					{
+						"attr": {
+							"city": "泰州",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "泰州",
+						"treeId": "泰州"
+					},
+					{
+						"attr": {
+							"city": "镇江",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "镇江",
+						"treeId": "镇江"
+					},
+					{
+						"attr": {
+							"city": "江都",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "江都",
+						"treeId": "江都"
+					},
+					{
+						"attr": {
+							"city": "海安",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "海安",
+						"treeId": "海安"
+					},
+					{
+						"attr": {
+							"city": "江阴",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "江阴",
+						"treeId": "江阴"
+					},
+					{
+						"attr": {
+							"city": "苏州",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "苏州",
+						"treeId": "苏州"
+					},
+					{
+						"attr": {
+							"city": "海门",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "海门",
+						"treeId": "海门"
+					},
+					{
+						"attr": {
+							"city": "连云港",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "连云港",
+						"treeId": "连云港"
+					},
+					{
+						"attr": {
+							"city": "张家港",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "张家港",
+						"treeId": "张家港"
+					},
+					{
+						"attr": {
+							"city": "吴江",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "吴江",
+						"treeId": "吴江"
+					},
+					{
+						"attr": {
+							"city": "丹阳",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "丹阳",
+						"treeId": "丹阳"
+					},
+					{
+						"attr": {
+							"city": "徐州",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "徐州",
+						"treeId": "徐州"
+					},
+					{
+						"attr": {
+							"city": "江宁",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "江宁",
+						"treeId": "江宁"
+					},
+					{
+						"attr": {
+							"city": "高邮",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "高邮",
+						"treeId": "高邮"
+					},
+					{
+						"attr": {
+							"city": "无锡",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "无锡",
+						"treeId": "无锡"
+					},
+					{
+						"attr": {
+							"city": "金坛",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "金坛",
+						"treeId": "金坛"
+					},
+					{
+						"attr": {
+							"city": "启东",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "启东",
+						"treeId": "启东"
+					},
+					{
+						"attr": {
+							"city": "宜兴",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宜兴",
+						"treeId": "宜兴"
+					},
+					{
+						"attr": {
+							"city": "扬州",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "扬州",
+						"treeId": "扬州"
+					},
+					{
+						"attr": {
+							"city": "如东",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "如东",
+						"treeId": "如东"
+					},
+					{
+						"attr": {
+							"city": "兴化",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "兴化",
+						"treeId": "兴化"
+					},
+					{
+						"attr": {
+							"city": "扬中",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "扬中",
+						"treeId": "扬中"
+					},
+					{
+						"attr": {
+							"city": "淮安",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "淮安",
+						"treeId": "淮安"
+					},
+					{
+						"attr": {
+							"city": "靖江",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "靖江",
+						"treeId": "靖江"
+					},
+					{
+						"attr": {
+							"city": "昆山",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "昆山",
+						"treeId": "昆山"
+					},
+					{
+						"attr": {
+							"city": "常州",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "常州",
+						"treeId": "常州"
+					},
+					{
+						"attr": {
+							"city": "南京",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "南京",
+						"treeId": "南京"
+					},
+					{
+						"attr": {
+							"city": "南通",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "南通",
+						"treeId": "南通"
+					},
+					{
+						"attr": {
+							"city": "如皋",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "如皋",
+						"treeId": "如皋"
+					},
+					{
+						"attr": {
+							"city": "宿迁",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宿迁",
+						"treeId": "宿迁"
+					},
+					{
+						"attr": {
+							"city": "沭阳",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "沭阳",
+						"treeId": "沭阳"
+					},
+					{
+						"attr": {
+							"city": "泰兴",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "泰兴",
+						"treeId": "泰兴"
+					},
+					{
+						"attr": {
+							"city": "浦口",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "浦口",
+						"treeId": "浦口"
+					},
+					{
+						"attr": {
+							"city": "溧水",
+							"province": "江苏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "溧水",
+						"treeId": "溧水"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "江苏",
+				"treeId": "P_江苏"
+			},
+			{
+				"attr": {
+					"province": "河北"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "张家口",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "张家口",
+						"treeId": "张家口"
+					},
+					{
+						"attr": {
+							"city": "唐山",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "唐山",
+						"treeId": "唐山"
+					},
+					{
+						"attr": {
+							"city": "廊坊",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "廊坊",
+						"treeId": "廊坊"
+					},
+					{
+						"attr": {
+							"city": "定州",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "定州",
+						"treeId": "定州"
+					},
+					{
+						"attr": {
+							"city": "秦皇岛",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "秦皇岛",
+						"treeId": "秦皇岛"
+					},
+					{
+						"attr": {
+							"city": "武安",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "武安",
+						"treeId": "武安"
+					},
+					{
+						"attr": {
+							"city": "保定",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "保定",
+						"treeId": "保定"
+					},
+					{
+						"attr": {
+							"city": "沧州",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "沧州",
+						"treeId": "沧州"
+					},
+					{
+						"attr": {
+							"city": "衡水",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "衡水",
+						"treeId": "衡水"
+					},
+					{
+						"attr": {
+							"city": "任丘",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "任丘",
+						"treeId": "任丘"
+					},
+					{
+						"attr": {
+							"city": "邢台",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "邢台",
+						"treeId": "邢台"
+					},
+					{
+						"attr": {
+							"city": "邯郸",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "邯郸",
+						"treeId": "邯郸"
+					},
+					{
+						"attr": {
+							"city": "涿州",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "涿州",
+						"treeId": "涿州"
+					},
+					{
+						"attr": {
+							"city": "石家庄",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "石家庄",
+						"treeId": "石家庄"
+					},
+					{
+						"attr": {
+							"city": "承德",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "承德",
+						"treeId": "承德"
+					},
+					{
+						"attr": {
+							"city": "霸州",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "霸州",
+						"treeId": "霸州"
+					},
+					{
+						"attr": {
+							"city": "迁安",
+							"province": "河北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "迁安",
+						"treeId": "迁安"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "河北",
+				"treeId": "P_河北"
+			},
+			{
+				"attr": {
+					"province": "西藏"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "拉萨",
+							"province": "西藏"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "拉萨",
+						"treeId": "拉萨"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "西藏",
+				"treeId": "P_西藏"
+			},
+			{
+				"attr": {
+					"province": "福建"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "漳州",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "漳州",
+						"treeId": "漳州"
+					},
+					{
+						"attr": {
+							"city": "漳浦",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "漳浦",
+						"treeId": "漳浦"
+					},
+					{
+						"attr": {
+							"city": "福清",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "福清",
+						"treeId": "福清"
+					},
+					{
+						"attr": {
+							"city": "南平",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "南平",
+						"treeId": "南平"
+					},
+					{
+						"attr": {
+							"city": "宁德",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宁德",
+						"treeId": "宁德"
+					},
+					{
+						"attr": {
+							"city": "三明",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "三明",
+						"treeId": "三明"
+					},
+					{
+						"attr": {
+							"city": "泉州",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "泉州",
+						"treeId": "泉州"
+					},
+					{
+						"attr": {
+							"city": "龙岩",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "龙岩",
+						"treeId": "龙岩"
+					},
+					{
+						"attr": {
+							"city": "晋江",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "晋江",
+						"treeId": "晋江"
+					},
+					{
+						"attr": {
+							"city": "厦门",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "厦门",
+						"treeId": "厦门"
+					},
+					{
+						"attr": {
+							"city": "莆田",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "莆田",
+						"treeId": "莆田"
+					},
+					{
+						"attr": {
+							"city": "福州",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "福州",
+						"treeId": "福州"
+					},
+					{
+						"attr": {
+							"city": "安溪",
+							"province": "福建"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "安溪",
+						"treeId": "安溪"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "福建",
+				"treeId": "P_福建"
+			},
+			{
+				"attr": {
+					"province": "吉林"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "长春",
+							"province": "吉林"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "长春",
+						"treeId": "长春"
+					},
+					{
+						"attr": {
+							"city": "松原",
+							"province": "吉林"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "松原",
+						"treeId": "松原"
+					},
+					{
+						"attr": {
+							"city": "通化",
+							"province": "吉林"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "通化",
+						"treeId": "通化"
+					},
+					{
+						"attr": {
+							"city": "延吉",
+							"province": "吉林"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "延吉",
+						"treeId": "延吉"
+					},
+					{
+						"attr": {
+							"city": "吉林",
+							"province": "吉林"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "吉林",
+						"treeId": "吉林"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "吉林",
+				"treeId": "P_吉林"
+			},
+			{
+				"attr": {
+					"province": "云南"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "普洱",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "普洱",
+						"treeId": "普洱"
+					},
+					{
+						"attr": {
+							"city": "大理",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "大理",
+						"treeId": "大理"
+					},
+					{
+						"attr": {
+							"city": "丽江",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "丽江",
+						"treeId": "丽江"
+					},
+					{
+						"attr": {
+							"city": "德宏",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "德宏",
+						"treeId": "德宏"
+					},
+					{
+						"attr": {
+							"city": "玉溪",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "玉溪",
+						"treeId": "玉溪"
+					},
+					{
+						"attr": {
+							"city": "昆明",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "昆明",
+						"treeId": "昆明"
+					},
+					{
+						"attr": {
+							"city": "安宁",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "安宁",
+						"treeId": "安宁"
+					},
+					{
+						"attr": {
+							"city": "楚雄",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "楚雄",
+						"treeId": "楚雄"
+					},
+					{
+						"attr": {
+							"city": "昭通",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "昭通",
+						"treeId": "昭通"
+					},
+					{
+						"attr": {
+							"city": "蒙自",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "蒙自",
+						"treeId": "蒙自"
+					},
+					{
+						"attr": {
+							"city": "文山",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "文山",
+						"treeId": "文山"
+					},
+					{
+						"attr": {
+							"city": "曲靖",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "曲靖",
+						"treeId": "曲靖"
+					},
+					{
+						"attr": {
+							"city": "景洪",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "景洪",
+						"treeId": "景洪"
+					},
+					{
+						"attr": {
+							"city": "保山",
+							"province": "云南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "保山",
+						"treeId": "保山"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "云南",
+				"treeId": "P_云南"
+			},
+			{
+				"attr": {
+					"province": "湖北"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "襄阳",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "襄阳",
+						"treeId": "襄阳"
+					},
+					{
+						"attr": {
+							"city": "荆门",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "荆门",
+						"treeId": "荆门"
+					},
+					{
+						"attr": {
+							"city": "随州",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "随州",
+						"treeId": "随州"
+					},
+					{
+						"attr": {
+							"city": "武汉",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "武汉",
+						"treeId": "武汉"
+					},
+					{
+						"attr": {
+							"city": "十堰",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "十堰",
+						"treeId": "十堰"
+					},
+					{
+						"attr": {
+							"city": "宜昌",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宜昌",
+						"treeId": "宜昌"
+					},
+					{
+						"attr": {
+							"city": "孝感",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "孝感",
+						"treeId": "孝感"
+					},
+					{
+						"attr": {
+							"city": "恩施",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "恩施",
+						"treeId": "恩施"
+					},
+					{
+						"attr": {
+							"city": "咸宁",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "咸宁",
+						"treeId": "咸宁"
+					},
+					{
+						"attr": {
+							"city": "仙桃",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "仙桃",
+						"treeId": "仙桃"
+					},
+					{
+						"attr": {
+							"city": "荆州",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "荆州",
+						"treeId": "荆州"
+					},
+					{
+						"attr": {
+							"city": "黄石",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "黄石",
+						"treeId": "黄石"
+					},
+					{
+						"attr": {
+							"city": "黄冈",
+							"province": "湖北"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "黄冈",
+						"treeId": "黄冈"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "湖北",
+				"treeId": "P_湖北"
+			},
+			{
+				"attr": {
+					"province": "海南"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "海口",
+							"province": "海南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "海口",
+						"treeId": "海口"
+					},
+					{
+						"attr": {
+							"city": "三亚",
+							"province": "海南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "三亚",
+						"treeId": "三亚"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "海南",
+				"treeId": "P_海南"
+			},
+			{
+				"attr": {
+					"province": "上海"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "松江",
+							"province": "上海"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "松江",
+						"treeId": "松江"
+					},
+					{
+						"attr": {
+							"city": "嘉定",
+							"province": "上海"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "嘉定",
+						"treeId": "嘉定"
+					},
+					{
+						"attr": {
+							"city": "上海",
+							"province": "上海"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "上海",
+						"treeId": "上海"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "上海",
+				"treeId": "P_上海"
+			},
+			{
+				"attr": {
+					"province": "甘肃"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "天水",
+							"province": "甘肃"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "天水",
+						"treeId": "天水"
+					},
+					{
+						"attr": {
+							"city": "武威",
+							"province": "甘肃"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "武威",
+						"treeId": "武威"
+					},
+					{
+						"attr": {
+							"city": "嘉峪关",
+							"province": "甘肃"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "嘉峪关",
+						"treeId": "嘉峪关"
+					},
+					{
+						"attr": {
+							"city": "兰州",
+							"province": "甘肃"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "兰州",
+						"treeId": "兰州"
+					},
+					{
+						"attr": {
+							"city": "张掖",
+							"province": "甘肃"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "张掖",
+						"treeId": "张掖"
+					},
+					{
+						"attr": {
+							"city": "定西",
+							"province": "甘肃"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "定西",
+						"treeId": "定西"
+					},
+					{
+						"attr": {
+							"city": "白银",
+							"province": "甘肃"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "白银",
+						"treeId": "白银"
+					},
+					{
+						"attr": {
+							"city": "庆阳",
+							"province": "甘肃"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "庆阳",
+						"treeId": "庆阳"
+					},
+					{
+						"attr": {
+							"city": "平凉",
+							"province": "甘肃"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "平凉",
+						"treeId": "平凉"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "甘肃",
+				"treeId": "P_甘肃"
+			},
+			{
+				"attr": {
+					"province": "湖南"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "长沙",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "长沙",
+						"treeId": "长沙"
+					},
+					{
+						"attr": {
+							"city": "株洲",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "株洲",
+						"treeId": "株洲"
+					},
+					{
+						"attr": {
+							"city": "郴州",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "郴州",
+						"treeId": "郴州"
+					},
+					{
+						"attr": {
+							"city": "永州",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "永州",
+						"treeId": "永州"
+					},
+					{
+						"attr": {
+							"city": "宁乡",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "宁乡",
+						"treeId": "宁乡"
+					},
+					{
+						"attr": {
+							"city": "张家界",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "张家界",
+						"treeId": "张家界"
+					},
+					{
+						"attr": {
+							"city": "吉首",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "吉首",
+						"treeId": "吉首"
+					},
+					{
+						"attr": {
+							"city": "攸县",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "攸县",
+						"treeId": "攸县"
+					},
+					{
+						"attr": {
+							"city": "益阳",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "益阳",
+						"treeId": "益阳"
+					},
+					{
+						"attr": {
+							"city": "怀化",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "怀化",
+						"treeId": "怀化"
+					},
+					{
+						"attr": {
+							"city": "娄底",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "娄底",
+						"treeId": "娄底"
+					},
+					{
+						"attr": {
+							"city": "岳阳",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "岳阳",
+						"treeId": "岳阳"
+					},
+					{
+						"attr": {
+							"city": "邵阳",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "邵阳",
+						"treeId": "邵阳"
+					},
+					{
+						"attr": {
+							"city": "浏阳",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "浏阳",
+						"treeId": "浏阳"
+					},
+					{
+						"attr": {
+							"city": "湘潭",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "湘潭",
+						"treeId": "湘潭"
+					},
+					{
+						"attr": {
+							"city": "衡阳",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "衡阳",
+						"treeId": "衡阳"
+					},
+					{
+						"attr": {
+							"city": "常德",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "常德",
+						"treeId": "常德"
+					},
+					{
+						"attr": {
+							"city": "湘西",
+							"province": "湖南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "湘西",
+						"treeId": "湘西"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "湖南",
+				"treeId": "P_湖南"
+			},
+			{
+				"attr": {
+					"province": "河南"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "濮阳",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "濮阳",
+						"treeId": "濮阳"
+					},
+					{
+						"attr": {
+							"city": "永城",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "永城",
+						"treeId": "永城"
+					},
+					{
+						"attr": {
+							"city": "新乡",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "新乡",
+						"treeId": "新乡"
+					},
+					{
+						"attr": {
+							"city": "许昌",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "许昌",
+						"treeId": "许昌"
+					},
+					{
+						"attr": {
+							"city": "漯河",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "漯河",
+						"treeId": "漯河"
+					},
+					{
+						"attr": {
+							"city": "周口",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "周口",
+						"treeId": "周口"
+					},
+					{
+						"attr": {
+							"city": "商丘",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "商丘",
+						"treeId": "商丘"
+					},
+					{
+						"attr": {
+							"city": "三门峡",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "三门峡",
+						"treeId": "三门峡"
+					},
+					{
+						"attr": {
+							"city": "安阳",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "安阳",
+						"treeId": "安阳"
+					},
+					{
+						"attr": {
+							"city": "新郑",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "新郑",
+						"treeId": "新郑"
+					},
+					{
+						"attr": {
+							"city": "济源",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "济源",
+						"treeId": "济源"
+					},
+					{
+						"attr": {
+							"city": "巩义",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "巩义",
+						"treeId": "巩义"
+					},
+					{
+						"attr": {
+							"city": "焦作",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "焦作",
+						"treeId": "焦作"
+					},
+					{
+						"attr": {
+							"city": "平顶山",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "平顶山",
+						"treeId": "平顶山"
+					},
+					{
+						"attr": {
+							"city": "鹤壁",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "鹤壁",
+						"treeId": "鹤壁"
+					},
+					{
+						"attr": {
+							"city": "驻马店",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "驻马店",
+						"treeId": "驻马店"
+					},
+					{
+						"attr": {
+							"city": "洛阳",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "洛阳",
+						"treeId": "洛阳"
+					},
+					{
+						"attr": {
+							"city": "禹州",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "禹州",
+						"treeId": "禹州"
+					},
+					{
+						"attr": {
+							"city": "开封",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "开封",
+						"treeId": "开封"
+					},
+					{
+						"attr": {
+							"city": "郑州",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "郑州",
+						"treeId": "郑州"
+					},
+					{
+						"attr": {
+							"city": "南阳",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "南阳",
+						"treeId": "南阳"
+					},
+					{
+						"attr": {
+							"city": "信阳",
+							"province": "河南"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "信阳",
+						"treeId": "信阳"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "河南",
+				"treeId": "P_河南"
+			},
+			{
+				"attr": {
+					"province": "山东"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "荷泽",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "荷泽",
+						"treeId": "荷泽"
+					},
+					{
+						"attr": {
+							"city": "高密",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "高密",
+						"treeId": "高密"
+					},
+					{
+						"attr": {
+							"city": "德州",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "德州",
+						"treeId": "德州"
+					},
+					{
+						"attr": {
+							"city": "滨州",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "滨州",
+						"treeId": "滨州"
+					},
+					{
+						"attr": {
+							"city": "平度",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "平度",
+						"treeId": "平度"
+					},
+					{
+						"attr": {
+							"city": "邹平",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "邹平",
+						"treeId": "邹平"
+					},
+					{
+						"attr": {
+							"city": "胶州",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "胶州",
+						"treeId": "胶州"
+					},
+					{
+						"attr": {
+							"city": "青岛",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "青岛",
+						"treeId": "青岛"
+					},
+					{
+						"attr": {
+							"city": "青州",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "青州",
+						"treeId": "青州"
+					},
+					{
+						"attr": {
+							"city": "临沂",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "临沂",
+						"treeId": "临沂"
+					},
+					{
+						"attr": {
+							"city": "泰安",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "泰安",
+						"treeId": "泰安"
+					},
+					{
+						"attr": {
+							"city": "淄博",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "淄博",
+						"treeId": "淄博"
+					},
+					{
+						"attr": {
+							"city": "枣庄",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "枣庄",
+						"treeId": "枣庄"
+					},
+					{
+						"attr": {
+							"city": "胶南",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "胶南",
+						"treeId": "胶南"
+					},
+					{
+						"attr": {
+							"city": "广饶",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "广饶",
+						"treeId": "广饶"
+					},
+					{
+						"attr": {
+							"city": "莱阳",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "莱阳",
+						"treeId": "莱阳"
+					},
+					{
+						"attr": {
+							"city": "邹城",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "邹城",
+						"treeId": "邹城"
+					},
+					{
+						"attr": {
+							"city": "即墨",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "即墨",
+						"treeId": "即墨"
+					},
+					{
+						"attr": {
+							"city": "诸城",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "诸城",
+						"treeId": "诸城"
+					},
+					{
+						"attr": {
+							"city": "章丘",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "章丘",
+						"treeId": "章丘"
+					},
+					{
+						"attr": {
+							"city": "菏泽",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "菏泽",
+						"treeId": "菏泽"
+					},
+					{
+						"attr": {
+							"city": "寿光",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "寿光",
+						"treeId": "寿光"
+					},
+					{
+						"attr": {
+							"city": "滕州",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "滕州",
+						"treeId": "滕州"
+					},
+					{
+						"attr": {
+							"city": "烟台",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "烟台",
+						"treeId": "烟台"
+					},
+					{
+						"attr": {
+							"city": "日照",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "日照",
+						"treeId": "日照"
+					},
+					{
+						"attr": {
+							"city": "东营",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "东营",
+						"treeId": "东营"
+					},
+					{
+						"attr": {
+							"city": "潍坊",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "潍坊",
+						"treeId": "潍坊"
+					},
+					{
+						"attr": {
+							"city": "济宁",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "济宁",
+						"treeId": "济宁"
+					},
+					{
+						"attr": {
+							"city": "威海",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "威海",
+						"treeId": "威海"
+					},
+					{
+						"attr": {
+							"city": "龙口",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "龙口",
+						"treeId": "龙口"
+					},
+					{
+						"attr": {
+							"city": "聊城",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "聊城",
+						"treeId": "聊城"
+					},
+					{
+						"attr": {
+							"city": "济南",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "济南",
+						"treeId": "济南"
+					},
+					{
+						"attr": {
+							"city": "莱州",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "莱州",
+						"treeId": "莱州"
+					},
+					{
+						"attr": {
+							"city": "莱芜",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "莱芜",
+						"treeId": "莱芜"
+					},
+					{
+						"attr": {
+							"city": "临汾",
+							"province": "山东"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "临汾",
+						"treeId": "临汾"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "山东",
+				"treeId": "P_山东"
+			},
+			{
+				"attr": {
+					"province": "黑龙江"
+				},
+				"canSelect": true,
+				"children": [
+					{
+						"attr": {
+							"city": "大庆",
+							"province": "黑龙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "大庆",
+						"treeId": "大庆"
+					},
+					{
+						"attr": {
+							"city": "双鸭山",
+							"province": "黑龙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "双鸭山",
+						"treeId": "双鸭山"
+					},
+					{
+						"attr": {
+							"city": "哈尔滨",
+							"province": "黑龙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "哈尔滨",
+						"treeId": "哈尔滨"
+					},
+					{
+						"attr": {
+							"city": "齐齐哈尔",
+							"province": "黑龙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "齐齐哈尔",
+						"treeId": "齐齐哈尔"
+					},
+					{
+						"attr": {
+							"city": "绥化",
+							"province": "黑龙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "绥化",
+						"treeId": "绥化"
+					},
+					{
+						"attr": {
+							"city": "牡丹江",
+							"province": "黑龙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "牡丹江",
+						"treeId": "牡丹江"
+					},
+					{
+						"attr": {
+							"city": "佳木斯",
+							"province": "黑龙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "佳木斯",
+						"treeId": "佳木斯"
+					},
+					{
+						"attr": {
+							"city": "北安",
+							"province": "黑龙江"
+						},
+						"canSelect": true,
+						"children": [
+						],
+						"disabled": false,
+						"opened": true,
+						"selected": false,
+						"text": "北安",
+						"treeId": "北安"
+					}
+				],
+				"disabled": false,
+				"opened": true,
+				"selected": false,
+				"text": "黑龙江",
+				"treeId": "P_黑龙江"
+			}
+		],
+		"disabled": false,
+		"opened": true,
+		"selected": false,
+		"text": "中国",
+		"treeId": "C_中国"
+	}
+]

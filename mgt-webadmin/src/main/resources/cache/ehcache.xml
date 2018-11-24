@@ -1,0 +1,50 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../config/ehcache.xsd" updateCheck="false">
+    <diskStore path="java.io.tmpdir"/>
+    <defaultCache
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="120"
+            timeToLiveSeconds="120"
+            overflowToDisk="false"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU"
+            />
+
+
+    <!--缓存  -->
+    <cache name="springCacheManager" maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="86400" timeToLiveSeconds="86400" overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU">
+    </cache>
+
+    <!--用户缓存  -->
+    <cache name="userCache" maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="86400" timeToLiveSeconds="86400" overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU">
+    </cache>
+
+    <!--角色用户缓存  -->
+    <cache name="userRoleCache" maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="86400" timeToLiveSeconds="86400" overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU">
+    </cache>
+
+    <!--角色资源缓存  -->
+    <cache name="permissionCache" maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="86400" timeToLiveSeconds="86400" overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU">
+    </cache>
+    
+    <!-- 经销商缓存 -->
+    <cache name="dealerCache" maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="60" timeToLiveSeconds="60" overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU">
+    </cache>
+    
+    <!-- 项目活动缓存 -->
+    <cache name="projectCache" maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="60" timeToLiveSeconds="60" overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU">
+    </cache>
+    
+    <!-- Mapping缓存 -->
+    <cache name="mappingCache" maxElementsInMemory="10000" eternal="false" timeToIdleSeconds="600" timeToLiveSeconds="600" overflowToDisk="false"
+           memoryStoreEvictionPolicy="LRU">
+    </cache>
+
+</ehcache>

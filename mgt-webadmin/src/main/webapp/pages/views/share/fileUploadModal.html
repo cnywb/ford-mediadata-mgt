@@ -1,0 +1,78 @@
+<form name="dataForm" novalidate ng-submit="dbForm.submit(dataForm.$valid)" class="form-horizontal form">
+    <div class="modal-body form-horizontal form">
+        <div class="form-body portlet dbLight" style="margin-bottom: 0px;">
+            <div class="portlet-title">
+                <div class="caption font-green-sharp">
+                    <i class="icon-{{dbForm.title.icon}} iconfont font-green-sharp" style="font-size: 16px; margin-top: 0px;"></i>
+                    <span class="caption-subject bold uppercase">文件上传</span>
+                </div>
+                <div class="tools">
+                        <i class="iconfont icon-guanbi" ng-click="modalClose()"></i>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                    	<p>导入队列: {{ uploader.queue.length }}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <table class="table col-md-12">
+                        <thead>
+                        <tr>
+                            <th width="10%" class="text-center">文件名</th>
+                            <th ng-show="uploader.isHTML5" width="10%" class="text-center">文件大小</th>
+                            <th ng-show="uploader.isHTML5" width="10%" class="text-center">导入进度</th>
+                            <th width="10%" class="text-center">状态</th>
+                            <th width="10%" class="text-center">记录数</th>
+                            <th width="40%" class="text-center">信息</th>
+                            <th width="10%" class="text-center">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="item in uploader.queue">
+                            <td class="text-center">
+                                <strong>{{ item.file.name }}</strong>
+                                <div ng-show="uploader.isHTML5"></div>
+                            </td>
+                            <td ng-show="uploader.isHTML5" nowrap class="text-center">{{ item.file.size/1024/1024|number:2 }} MB</td>
+                            <td ng-show="uploader.isHTML5" class="text-center">
+                                <div class="progress" style="margin-bottom: 0;">
+                                    <div class="progress-bar" role="progressbar" ng-style="{ 'width': item.progress + '%' }"></div>
+                                </div>
+                            </td>
+                            <td class="text-center">
+                                <span ng-show="item.isSuccess"><i class="glyphicon glyphicon-ok"></i></span>
+                                <span ng-show="item.isError"><i class="glyphicon glyphicon-remove"></i></span>
+                            </td>
+                            <td class="text-center">
+                                <span>{{item.dataSize}}</span>
+                            </td>
+                            <td class="text-left">
+                                <span>{{item.message}}</span>
+                            </td>
+                            <td nowrap class="text-center">
+                                <button type="button" class="btn btn-success btn-xs" ng-click="item.upload()" ng-disabled="item.isReady || item.isUploading || item.isSuccess">
+                                    <span class="glyphicon glyphicon-upload"></span> 导入
+                                </button>
+                                <button type="button" class="btn btn-danger btn-xs" ng-click="item.remove()">
+                                    <span class="glyphicon glyphicon-trash"></span> 删除
+                                </button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class=dbFileAddPic href="javascript:void(0);"><span ng-disabled="disableFileAddPic"><em>+</em>添加导入文件</span> <input
+                                class="dbFilePrew" title="点击选择文件" tabindex="3" type="file" size="3"
+                                name="file" nv-file-select uploader="uploader" ng-disabled="disableFileAddPic"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

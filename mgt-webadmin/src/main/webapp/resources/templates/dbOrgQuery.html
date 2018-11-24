@@ -1,0 +1,36 @@
+<div ng-if="field.type=='orgQuery'">
+<div class="form-group col-md-3" ng-class="{ 'has-error' : dataForm['yearMonth'].$invalid && dbFormGrid.submited }">
+    <label class="col-md-4 control-label" style="padding-right: 0;"><span class="required"> * </span>年月</label>
+    <div class="col-md-8 dbFormItem">
+        <db-month-select></db-month-select>
+    </div>
+</div>
+<div class="form-group col-md-3" ng-class="{ 'has-error' : dataForm['queryType'].$invalid && dbFormGrid.submited }">
+    <label class="col-md-4 control-label" style="padding-right: 0;">类型</label>
+    <div class="col-md-8 dbFormItem">
+        <ui-select ng-model="dbFormGrid.queryParams['queryType']"  theme="bootstrap">
+            <ui-select-match placeholder="请选择">{{$select.selected.name}}</ui-select-match>
+            <ui-select-choices
+                    repeat="item in dbFormGrid.queryType | selectPropsFilter:{name:$select.search}">
+                <span ng-bind-html="item.name | highlight: $select.search"></span>
+            </ui-select-choices>
+        </ui-select>
+    </div>
+</div>
+<div class="form-group col-md-3" ng-class="{ 'has-error' : dataForm['orgNamePath'].$invalid && dbFormGrid.submited }">
+    <label class="col-md-5 control-label" style="padding-right: 0;">所属机构</label>
+    <div class="col-md-7 dbFormItem">
+        <db-org-tree></db-org-tree>
+    </div>
+</div>
+<div class="form-group col-md-3" ng-class="{ 'has-error' : dataForm['channelRole'].$invalid && dbFormGrid.submited }" ng-if="channelRole.show">
+    <label class="col-md-4 control-label" style="padding-right: 0;">所属人员</label>
+    <div class="col-md-8 dbFormItem">
+        <input  ng-model="dbFormGrid.queryParams['channelRole']" name="channelRole"
+              readonly type="text" ng-required="field.required"
+               class="form-control form-control-readonly">
+                                 <span class="help-block"
+                                       ng-show="dataForm['channelRole'].$invalid && dbFormGrid.submited ">所属人员字段为必录项!</span>
+    </div>
+</div>
+</div>

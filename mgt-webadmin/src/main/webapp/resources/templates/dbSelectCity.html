@@ -1,0 +1,40 @@
+<div class="select-address form-inline" style="border-radius: 5px;">
+    <div class="select-address-container">
+        <ul>
+            <li>
+                <!-- 省份 -->
+                <span ng-repeat="item in provinces"
+                      ng-click="aSet.p(item.p)"
+                      ng-class="{'label label-primary': p === item.p}">
+                    {{item.p}} {{x}}
+                </span>
+            </li>
+            <li ng-if="cities">
+                <!-- 城市 -->
+                <span ng-repeat="item in cities  "
+                      ng-click="aSet.c(item.n)"
+                      ng-class="{'label label-primary': c === item.n}">
+                    {{item.n}}
+                </span>
+            </li>
+
+            <li ng-if="c">
+                <!-- 县级 -->
+                <span ng-repeat="item in dists "
+                      ng-click="aSet.a(item.s)"
+                      ng-class="{'label label-primary': a === item.s}">
+                    {{item.s}}
+                </span>
+                <h5 ng-if="!dists" class="text-muted text-center">已没有县区</h5>
+            </li>
+        </ul>
+    </div>`
+
+    <div class="select-address-footer">
+          <span class="pull-right">
+            <button ng-click="clearCity()" class="btn btn-sm btn-link" type="button">清空</button>
+            <button ng-click="submitCity()" class="btn btn-sm btn-primary" type="button">确定</button>
+        </span>
+        <strong class="text-primary">{{ p }} {{ c }} {{ a }}　</strong>
+    </div>
+</div>

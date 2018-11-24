@@ -1,0 +1,4 @@
+.line-feed{
+    word-break: keep-all;
+    white-space: nowrap;
+}

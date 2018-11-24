@@ -1,0 +1,824 @@
+{
+  "yesOrNo": [
+    {
+      "name": "是",
+      "value": "是"
+    },
+    {
+      "name": "否",
+      "value": "否"
+    }
+  ], "channel": [
+  {
+    "name": "ODP",
+    "value": "ODP"
+  },
+  {
+    "name": "CSI",
+    "value": "CSI"
+  }
+],
+  "operationType": [
+  {"name": "登入",   "value": "USER_LOGIN" },
+  {"name": "退出",   "value": "USER_LOGOUT" },
+  {"name": "密码过期", "value": "USER_PASSWORD_EXPIRED" },
+  {
+    "name": "新增用户",
+    "value": "USER_CREATE"
+  },
+  {
+    "name": "修改用户",
+    "value": "USER_MODIFY"
+  },
+  {
+    "name": "修改密码",
+    "value": "USER_PASSWORD_MODIFY"
+  }, {
+      "name": "重置密码",
+      "value": "USER_PASSWORD_RESET"
+    },
+  {
+    "name": "删除用户",
+    "value": "USER_REMOVE"
+  },
+  {
+    "name": "新增角色",
+    "value": "ROLE_CREATE"
+  },
+  {
+    "name": "修改角色",
+    "value": "ROLE_MODIFY"
+  },
+  {
+    "name": "删除角色",
+    "value": "ROLE_REMOVE"
+  },
+  {
+    "name": "资源授权",
+    "value": "AUTH_ROLE_RESOURCE"
+  },
+  {
+    "name": "授权用户新增",
+    "value": "AUTH_ROLE_USER_ADD"
+  },
+  {
+    "name": "授权用户删除",
+    "value": "AUTH_ROLE_USER_REMOVE"
+  },
+  {
+    "name": "资源创建",
+    "value": "RESOURCE_CREATE"
+  },
+  {
+    "name": "资源修改",
+    "value": "RESOURCE_MODIFY"
+  }
+],
+  "messageBatchType": [
+
+    {
+      "name": "短信",
+      "value": "1"
+    },
+    {
+      "name": "邮件",
+      "value": "2"
+    }
+  ],
+  "wordCategory": [
+
+    {
+      "name": "经销商代码",
+      "value": "DEALER_CODE"
+    },
+    {
+      "name": "车主姓名",
+      "value": "OWNER_NAME"
+    },
+    {
+      "name": "车主手机号",
+      "value": "OWNER_MOBILE"
+    }
+  ],
+  "batchDataType":[
+    {
+      "name": "敏感客户迁移",
+      "value": "CUSTOMER_TRANSFER"
+    },
+    {
+      "name": "申诉报告",
+      "value": "APPEAL_REPORT"
+    },
+    {
+      "name": "确认报告下发",
+      "value": "ISSUE_REPORT"
+    },
+    {
+      "name": "报告申诉计算",
+      "value": "APPEAL_CALC_REPORT"
+    },
+    {
+      "name": "申诉结束确认报告下发",
+      "value": "ANALYSIS_END_ISSUE_REPORT"
+    },
+    {
+      "name": "报告结束下发经销商邮件",
+      "value": "ANALYSIS_ISSUE_DEALER_MAIL"
+    },
+    {
+      "name": "ODP发送呼叫中心",
+      "value": "ODP_OB_SEND_OWNER"
+    },
+    {
+      "name": "ODP新车主数据",
+      "value": "ODP_NEW_OWNER"
+    },
+    {
+      "name": "SYNC报告计算任务",
+      "value": "SYNC_REPORT_CALC"
+    },
+    {
+      "name": "ODP发送呼叫中心",
+      "value": "ODP_OB_SEND_OWNER"
+    },
+    {
+      "name": "ODP呼叫中心反馈信息",
+      "value": "ODP_OB_RESULT"
+    },
+    {
+      "name": "ODP空号错号批处理",
+      "value": "ODP_UN_CONT"
+    },
+    {
+      "name": "ODP日报告数据统计",
+      "value": "CALC_REPORT_DAY"
+    },
+    {
+      "name": "报告申诉后计算",
+      "value": "CALC_REPORT_AFTER"
+    },
+    {
+      "name": "试算报告",
+      "value": "TRIAL_REPORT"
+    },
+    {
+      "name": "DMS车主数据导入",
+      "value": "DMS_CAR_OWNER"
+    },
+    {
+      "name": "DMS数字字典导入",
+      "value": "DMS_DIC"
+    },
+    {
+      "name": "CC拨打结果导入",
+      "value": "CC_OB_RESULT"
+    }
+  ],
+  "templateType": [
+    {
+      "name": "短信",
+      "value": "1"
+    },
+    {
+      "name": "邮件",
+      "value": "2"
+    }
+  ],"messageBatchStatus": [
+    {
+      "name": "数据准备",
+      "value": "1"
+    },
+    {
+      "name": "待发送",
+      "value": "2"
+    },
+    {
+      "name": "发送中",
+      "value": "3"
+    },
+    {
+      "name": "完成",
+      "value": "4"
+    }
+  ],
+  "gender": [
+    {
+      "name": "男",
+      "value": "男"
+    },
+    {
+      "name": "女",
+      "value": "女"
+    }
+  ],
+  "dataFileStatus": [
+    {
+      "name": "数据未导入",
+      "value": "1"
+    },
+    {
+      "name": "部分成功",
+      "value": "2"
+    },{
+      "name": "成功",
+      "value": "3"
+    },{
+      "name": "失败",
+      "value": "4"
+    }
+  ],
+  "analysisType":[
+    {"name": "月报","value": "4"},
+    {"name": "季报","value": "3"},
+    {"name": "半年报","value": "2"},
+    {  "name": "年报", "value": "1" }
+  ],
+  "analysisYears":[
+    {"name": "2016年","value": "2016"},
+    {"name": "2017年","value": "2017"},
+    {"name": "2018年","value": "2018"}
+  ],
+  "analysisMonths": [
+    {
+      "name": "01月",
+      "value": "01"
+    },
+    {
+      "name": "02月",
+      "value": "02"
+    },
+    {
+      "name": "03月",
+      "value": "03"
+    },
+    {
+      "name": "04月",
+      "value": "04"
+    },
+    {
+      "name": "05月",
+      "value": "05"
+    },
+    {
+      "name": "06月",
+      "value": "06"
+    },
+    {
+      "name": "07月",
+      "value": "07"
+    },
+    {
+      "name": "08月",
+      "value": "08"
+    },
+    {
+      "name": "09月",
+      "value": "09"
+    },
+    {
+      "name": "10月",
+      "value": "10"
+    },
+    {
+      "name": "11月",
+      "value": "11"
+    },
+    {
+      "name": "12月",
+      "value": "12"
+    }
+  ],
+  "unContStatus":[
+    { "name": "待计算","value": "1"},
+    {"name": "计算中","value": "2" },
+    {"name": "关闭","value": "3" }
+  ],
+  "unContIssueStatus":[
+    { "name": "待下发","value": "1"},
+    {"name": "下发中","value": "2" },
+    {"name": "已下发","value": "3" }
+  ],
+  "status_": [
+    { "name": "待处理","value": "1"},
+    {"name": "处理中","value": "2" },
+    {"name": "已处理","value": "3" }
+  ],
+  "errorLogDataType": [
+    { "name": "呼叫反馈数据","value": "CallCenterObResult"},
+    {"name": "DMS新车主数据","value": "DmsNewCarOwner" }
+  ],
+  "ErrorLogStatus": [
+    { "name": "未处理","value": "1"},
+    {"name": "已处理","value": "2" }
+  ],
+  "analysisStatus": [
+    { "name": "申诉前","value": "1"},
+    {"name": "申诉中","value": "2" },
+    {"name": "申诉后","value": "3" }
+  ],
+  "calcStatus": [
+    { "name": "待计算","value": "1"},
+    {"name": "计算中","value": "2" },
+    {"name": "计算完成","value": "3" }
+  ],
+  "issueStatus": [
+    { "name": "未下发","value": "1"},
+    {"name": "下发中","value": "2" },
+    {"name": "已下发","value": "3" }
+  ],
+  "appealStatus": [
+    { "name": "申诉未开始","value": "1"},
+    {"name": "申诉中","value": "2" },
+    {"name": "申诉结束","value": "3" }
+  ],
+  "areaStatus": [
+    {
+      "name": "启用",
+      "value": "启用"
+    },
+    {
+      "name": "停用",
+      "value": "停用"
+    }
+  ],
+  "appealType": [
+    {
+      "name": "车主",
+      "value": "车主"
+    },
+    {
+      "name": "联系人",
+      "value": "联系人"
+    }
+  ],
+  "fieldClearType": [
+    {
+      "name": "正确",
+      "value": "正确"
+    },
+    {
+      "name": "添加",
+      "value": "添加"
+    },
+    {
+      "name": "更新",
+      "value": "更新"
+    }
+  ],
+  "auditStatus": [
+    {
+      "name": "未申诉",
+      "value": "1"
+    },
+    {
+      "name": "申诉待审核",
+      "value": "2"
+    },
+    {
+      "name": "申诉审核中",
+      "value": "3"
+    },
+    {
+      "name": "申诉已审核",
+      "value": "4"
+    }
+  ],
+  "AuditConclusion": [
+    {
+      "name": "未审核",
+      "value": "未审核"
+    },
+    {
+      "name": "通过",
+      "value": "通过"
+    },
+    {
+      "name": "部分通过",
+      "value": "未通过"
+    },
+    {
+      "name": "未通过",
+      "value": "未通过"
+    }
+  ],
+  "callStatus": [
+    {
+      "name": "空错号",
+      "value": "空错号"
+    },
+    {
+      "name": "停机关机",
+      "value": "停机关机"
+    },
+    {
+      "name": "秘书台",
+      "value": "秘书台"
+    },
+    {
+      "name": "停机关机",
+      "value": "停机关机"
+    },
+    {
+      "name": "不在服务区",
+      "value": "不在服务区"
+    },
+    {
+      "name": "无人接听",
+      "value": "无人接听"
+    },
+    {
+      "name": "忙音",
+      "value": "忙音"
+    },
+    {
+      "name": "未找到关键人",
+      "value": "未找到关键人"
+    },
+    {
+      "name": "稍后联系",
+      "value": "稍后联系"
+    }
+  ],
+  "dealerImportStatus": [
+    {
+      "name": "待更新",
+      "value": "0"
+    },
+    {
+      "name": "已更新",
+      "value": "1"
+    }
+  ],
+  "dealerHistoryOperation": [
+    {
+      "name": "新增",
+      "value": "0"
+    },
+    {
+      "name": "编辑",
+      "value": "1"
+    },
+    {
+      "name": "关闭",
+      "value": "2"
+    },
+    {
+      "name": "启用",
+      "value": "3"
+    }
+  ],
+  "resourceType": [
+    {
+      "name": "全局资源",
+      "value": "global"
+    },
+    {
+      "name": "业务资源",
+      "value": "business"
+    }
+  ],
+  "sexType": [
+    {
+      "name": "男",
+      "value": "男"
+    },
+    {
+      "name": "女",
+      "value": "女"
+    },
+    {
+      "name": "未知",
+      "value": "未知"
+    }
+  ],
+  "isObSelect": [
+    {
+      "name": "是",
+      "value": "1"
+    },
+    {
+      "name": "否",
+      "value": "0"
+    }
+  ],
+  "carSyncSelect": [
+    {
+      "name": "是",
+      "value": "1"
+    },
+    {
+      "name": "否",
+      "value": "0"
+    }
+  ],
+  "carEaSelect": [
+    {
+      "name": "是",
+      "value": "1"
+    },
+    {
+      "name": "否",
+      "value": "0"
+    }
+  ],
+  "ownerErrorSelect": [
+    {
+      "name": "是",
+      "value": "1"
+    },
+    {
+      "name": "否",
+      "value": "0"
+    }
+  ],
+  "statisticSelect": [
+    {
+      "name": "是",
+      "value": "1"
+    },
+    {
+      "name": "否",
+      "value": "0"
+    }
+  ],
+  "obTypeSelect": [
+    {
+      "name": "车主",
+      "value": "OWNER"
+    },
+    {
+      "name": "联系人",
+      "value": "CONTACTER"
+    },
+    {
+      "name": "车主和联系人",
+      "value": "OWNER_AND_CONTACTER"
+    }
+  ],
+  "obTypeCallSelect": [
+    {
+      "name": "车主",
+      "value": "owner"
+    },
+    {
+      "name": "联系人",
+      "value": "contacter"
+    },
+    {
+      "name": "车主和联系人",
+      "value": "owner&contacter"
+    }
+  ],
+  "obStatusSelect": [
+    {
+      "name": "空错号",
+      "value": "2"
+    },
+    {
+      "name": "停机关机",
+      "value": "3"
+    },
+    {
+      "name": "秘书台",
+      "value": "4"
+    },
+    {
+      "name": "不在服务区",
+      "value": "5"
+    },
+    {
+      "name": "无人接听",
+      "value": "6"
+    },
+    {
+      "name": "忙音",
+      "value": "7"
+    },
+    {
+      "name": "未找到关键人",
+      "value": "8"
+    },
+    {
+      "name": "稍后联系",
+      "value": "9"
+    }
+  ],
+  "isValidSelect": [
+    {
+      "name": "无效",
+      "value": "0"
+    },
+    {
+      "name": "有效",
+      "value": "1"
+    }
+  ],
+  "callorderstatusSelect": [
+  {
+    "name": "未跟进",
+    "value": "0"
+  },
+  {
+    "name": "已跟进",
+    "value": "1"
+  },
+    {
+      "name": "无效",
+      "value": "2"
+    }
+  ],
+  "commonorderstatusSelect": [
+  {
+    "name": "未处理",
+    "value": "0"
+  },
+  {
+    "name": "已处理",
+    "value": "1"
+  }
+],
+  "callStatusSelect":[
+    {
+      "name":"空号错号",
+      "value":"2"
+    },
+    {
+      "name":"关机",
+      "value":"3"
+    },
+    {
+      "name":"秘书台",
+      "value":"4"
+    },
+    {
+      "name":"不在服务区",
+      "value":"5"
+    },
+    {
+      "name":"无人接听",
+      "value":"6"
+    },
+    {
+      "name":"忙音",
+      "value":"7"
+    },
+    {
+      "name":"未找到关键人",
+      "value":"8"
+    },
+    {
+      "name":"稍后联系",
+      "value":"9"
+    },
+    {
+      "name":"联系上但拒绝核实",
+      "value":"10"
+    },
+    {
+      "name":"联系上且信息完全正确",
+      "value":"T"
+    },
+    {
+      "name":"联系上但关键信息错误",
+      "value":"E"
+    },
+    {
+      "name":"空错号未反馈",
+      "value":"12"
+    },
+    {
+      "name":"停机",
+      "value":"13"
+    }
+  ],
+  "projectUserRole":[
+    {
+      "name":"操作员",
+      "value":"OPERATOR"
+    },
+    {
+      "name":"管理员",
+      "value":"ADMIN"
+    }
+  ],
+  "projectUserSerial":[
+    {
+      "name":"1",
+      "value":"1"
+    },
+    {
+      "name":"2",
+      "value":"2"
+    },
+    {
+      "name":"3",
+      "value":"3"
+    },
+    {
+      "name":"4",
+      "value":"4"
+    },
+    {
+      "name":"5",
+      "value":"5"
+    },
+    {
+      "name":"6",
+      "value":"6"
+    },
+    {
+      "name":"7",
+      "value":"7"
+    },
+    {
+      "name":"8",
+      "value":"8"
+    },
+    {
+      "name":"9",
+      "value":"9"
+    },
+    {
+      "name":"10",
+      "value":"10"
+    },
+    {
+      "name":"11",
+      "value":"11"
+    },
+    {
+      "name":"12",
+      "value":"12"
+    },
+    {
+      "name":"13",
+      "value":"13"
+    },
+    {
+      "name":"14",
+      "value":"14"
+    },
+    {
+      "name":"15",
+      "value":"15"
+    },
+    {
+      "name":"16",
+      "value":"16"
+    },
+    {
+      "name":"17",
+      "value":"17"
+    },
+    {
+      "name":"18",
+      "value":"18"
+    },
+    {
+      "name":"19",
+      "value":"19"
+    },
+    {
+      "name":"20",
+      "value":"20"
+    }
+  ],
+  "campaignChannelId":[
+    {
+      "name":"易湃订单",
+      "value":"9361"
+    },
+    {
+      "name":"易湃话单",
+      "value":"9362"
+    },
+    {
+      "name":"车商汇订单",
+      "value":"9363"
+    },
+    {
+      "name":"车商汇话单",
+      "value":"9364"
+    }
+  ],
+  "mediaType":[
+    {
+      "name":"易湃",
+      "value":"YiPai"
+    },
+    {
+      "name":"车商汇",
+      "value":"Cheshanghui"
+    }
+  ],
+  "mappingType":[
+    {
+      "name":"经销商",
+      "value":"DEALER"
+    },
+    {
+      "name":"车型",
+      "value":"CAR_MODEL"
+    }
+  ]
+}

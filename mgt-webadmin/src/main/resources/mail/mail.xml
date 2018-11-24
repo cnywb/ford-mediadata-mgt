@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       default-autowire="byName" default-lazy-init="false"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+    <bean name="javaMailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <property name="host">
+            <value>${mail.host}</value>
+        </property>
+        <property name="port">
+            <value type="java.lang.Integer">${mail.host.port}</value>
+        </property>
+        <property name="protocol">
+            <value>${mail.transport.protocol}</value>
+        </property>
+        <property name="username">
+            <value>${mail.from.userName}</value>
+        </property>
+        <property name="password">
+            <value>${mail.from.password}</value>
+        </property>
+        <!-- SMTP服务器验证 -->
+        <property name="javaMailProperties">
+            <props>
+                <!-- 验证身份 -->
+                <prop key="mail.smtp.auth">${mail.smtps.auth}</prop>
+                <prop key="mail.smtp.ssl.enable">${mail.smtp.ssl.enable}</prop>
+                <prop key="mail.transport.protocol">${mail.transport.protocol}</prop>
+                <prop key="mail.smtp.socketFactory.fallback">true</prop>
+                <prop key="mail.smtp.starttls.enable">true</prop>
+                <prop key="mail.smtp.socketFactory.class">javax.net.ssl.SSLSocketFactory</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

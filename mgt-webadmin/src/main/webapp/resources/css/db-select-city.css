@@ -1,0 +1,46 @@
+.select-address {
+    overflow: hidden;
+    transition:0.3s;
+    background: #fff;
+    display:block;
+    padding: 16px;
+}
+
+.select-address.active {
+    margin-top:10px;
+    top:0!important;
+}
+
+.select-address-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.select-address-container ul li {
+    width: 240px;
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.select-address-container ul li:nth-child(even) {
+    background: #eee;
+}
+
+.select-address-container ul li span {
+    font-size: 13px;
+    list-style: none;
+    display: inline-block;
+    margin:5px 7px;
+    cursor: pointer;
+}
+
+.select-address-footer {
+    border-top: 1px solid #eee;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+
+.select-address-footer input {
+    min-width: 50%;
+}

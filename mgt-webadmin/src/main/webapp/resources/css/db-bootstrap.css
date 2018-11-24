@@ -1,0 +1,430 @@
+/*
+自定义CSS样式和重载CSS样式
+@author kui.yang
+*/
+/*表格当中所有文字水平居中*/
+.table > thead > tr > th, .table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+/*grid当中的form-group不需要bottom*/
+.dbGrid .form-group {
+    margin-bottom: 0;
+}
+
+/*防止grid当中的checkbox与同行不平行*/
+.dbGrid .form-group label {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+/*去掉默认边距*/
+.dbGrid.table-scrollable {
+    margin: 0 !important;
+}
+
+.pagination > li > a.refresh {
+    color: #337ab7 !important;
+}
+
+/*保证和其他输入框边距保持一致*/
+.input-group[class*=col-] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*日历输入框不加边距，防止小屏幕无法完整显示*/
+.input-daterange .form-control {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*下拉框匹配中的文字颜色*/
+.ui-select-highlight {
+    color: red;
+}
+
+/*表单标题当中的工具栏字体图标鼠标样式*/
+.tools .iconfont {
+    cursor: pointer;
+    color: #8A8A8A;
+}
+
+.tools .iconfont:hover {
+    color: #353535;
+}
+
+.help-block {
+    margin-bottom: 0;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 10px;
+}
+
+/* override readonly 样式 */
+
+.dbFormItem .form-control-readonly {
+    cursor: pointer;
+    background-color: rgba(167, 209, 245, 0.15);
+}
+
+.form-control[disabled] {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+}
+
+/* 带有删除按钮的下拉左侧上下圆角样式 */
+.input-group .ui-select-toggle {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+.input-group .input-group-btn > .btn {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+/*对禁用的输入框，鼠标样式变更为不允许*/
+button[disabled], html input[disabled] {
+    cursor: not-allowed;
+}
+
+@media (min-width: 1200px) {
+    .modal-lg {
+        width: 1123px;
+    }
+}
+
+/*全屏日历样式当中的按钮，不允许有outline样式*/
+.fc-toolbar button {
+    outline: none;
+}
+
+/*loading框*/
+.page-loading {
+    z-index: 10000;
+}
+
+i.iconfont.tabIcon {
+    right: 5px;
+    font-size: 16px;
+}
+
+.form-control.center {
+    text-align: center;
+}
+
+.tabIcon.red {
+    color: red !important;
+}
+
+span.required.must {
+    color: red;
+    font-size: 15px;
+}
+
+/*按钮里面的带icon图标的样式*/
+.btn .iconfont {
+    margin-left: -3px;
+    margin-right: 3px;
+}
+
+/*修改input placeholder默认字体颜色*/
+/*
+:-moz-placeholder { /!* Mozilla Firefox 4 to 18 *!/
+    color: #f00;
+}
+
+::-moz-placeholder { /!* Mozilla Firefox 19+ *!/
+    color: #f00;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #f00;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #f00;
+}*/
+
+/*首页浏览器版本过低提示样式*/
+
+/* 代码整理：大头网 www.datouwang.com */
+
+#browser_ie {
+    background-color: #f6f6b4;
+    height: 85px;
+    color: #000;
+    font-size: 15px;
+    z-index: 10000;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+#browser_ie .brower_info {
+    margin: 0px auto;
+    width: 800px;
+    padding-top: 17px
+}
+
+#browser_ie .brower_info .notice_info {
+    position: relative;
+    margin-top: 5px;
+    float: left
+}
+
+#browser_ie .brower_info .notice_info p {
+    text-align: left;
+    line-height: 25px;
+    width: 360px;
+    display: inline-block
+}
+
+#browser_ie .browser_list {
+    position: relative;
+    float: left
+}
+
+#browser_ie .browser_list img {
+    width: 40px;
+    height: 40px
+}
+
+#browser_ie .browser_list span {
+    text-align: center;
+    width: 80px;
+    display: inline-block
+}
+
+.font-green-sharp {
+    color: #5b9bd1 !important;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.md-checkbox label > .check {
+    border: 2px solid #3379b5;
+    border-top: none;
+    border-left: none;
+}
+
+.portlet.light .portlet-body {
+    padding-top: 0px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.portlet.dbLight {
+    padding: 12px 20px 0px 20px;
+    background-color: #fff;
+}
+
+.dbRow {
+    margin-right: -5px;
+}
+
+.dbFooter {
+    padding: 15px 0px 0px 0px;
+}
+
+/*tree 相关样式*/
+.dbTree {
+    background-color: white;
+    color: black;
+}
+
+.jstree-default .jstree-clicked {
+    border: 0;
+    background-color: #e1e1e1;
+    box-shadow: none
+}
+
+/*
+.jstree-default .jstree-anchor:hover {
+    border: 0;
+    background-color: #eee;
+    box-shadow: none
+}
+*/
+
+.jstree-default .jstree-wholerow-clicked, .jstree-wholerow .jstree-wholerow-clicked {
+    background: #e1e1e1;
+    border: 0;
+    box-shadow: none
+}
+
+.jstree-default .jstree-wholerow-hovered, .jstree-wholerow:hover, .jstree-wholerow:active {
+    border: 0;
+    background-color: #eee;
+    box-shadow: none
+}
+
+.jstree-icon.icon-lg {
+    margin-top: 1px
+}
+
+.jstree-open > .jstree-anchor > .fa-folder:before {
+    margin-left: 2px;
+    content: "\f07c"
+}
+
+.jstree-default.jstree-rtl .jstree-last {
+    background: no-repeat
+}
+
+/*覆盖默认bootstrap collapse样式,防止collapse不起作用.*/
+.jstree-children .collapse {
+    display: none;
+}
+
+/**文件上传按钮美化*/
+.dbFileAddPic {
+    display: block;
+    position: relative;
+    width: 140px;
+    height: 34px;
+    overflow: hidden;
+    border: 1px solid #EBEBEB;
+    background: none repeat scroll 0 0 #F3F3F3;
+    color: #999999;
+    cursor: pointer;
+    text-align: center;
+}
+
+.dbFileAddPic span {
+    display: block;
+    line-height: 34px;
+}
+
+.dbFileAddPic em {
+    background: url(images/addFile.png) 0 0;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    margin: 8px 5px 10px 0;
+    line-height: 20em;
+    vertical-align: middle;
+}
+
+.dbFileAddPic:hover em {
+    background-position: -19px 0;
+}
+
+.dbFilePrew {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 34px;
+    font-size: 100px; /* 增大不同浏览器的可点击区域 */
+    opacity: 0; /* 实现的关键点 */
+    filter: alpha(opacity=0); /* 兼容IE */
+}
+
+/* 重载 components-rounded.css 的字体样式 */
+body {
+    color: #333333;
+    font-family: "Microsoft YaHei";
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 11px;
+    direction: ltr;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Microsoft YaHei";
+    font-weight: 400;
+}
+
+label {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.portlet > .portlet-title > .caption {
+    font-size: 14px;
+}
+
+.form-control {
+    font-size: 12px;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn > i {
+    font-size: 12px;
+}
+
+.table thead tr th {
+    font-size: 13px;
+}
+
+[class^="fa-"]:not(.fa-stack), [class^="glyphicon-"], [class^="icon-"], [class*=" fa-"]:not(.fa-stack), [class*=" glyphicon-"], [class*=" icon-"] {
+    font-size: 12px;
+}
+
+.nav-tabs > li > a, .nav-pills > li > a {
+    font-size: 12px;
+}
+
+.portlet.light > .portlet-title > .caption > .caption-subject {
+    font-size: 14px;
+}
+
+.portlet.light > .portlet-title > .caption > i {
+    font-size: 13px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.dropdown-menu {
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+/* 重载 layout.css 的字体样式 */
+.page-footer {;
+    font-size: 12px;
+}
+
+.page-head .page-title > h1 {
+    font-size: 16px;
+}
+
+/* 重载 bootstrap.css 的字体样式 */
+.font-green-sharp {
+    font-size: 12px;
+}
+
+.btn {
+    font-size: 12px;
+}
+
+.form-control {
+    height: 30px;
+}
+
+.form-horizontal .control-label {
+    padding-top: 4px;
+}
+
+/*  */
+.input-daterange .input-group-addon {
+    padding: 3px 5px;
+}
+.modal-footer{
+    margin-top: 15px;
+}

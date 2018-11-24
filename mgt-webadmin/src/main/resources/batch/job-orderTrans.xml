@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:batch="http://www.springframework.org/schema/batch"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/batch http://www.springframework.org/schema/batch/spring-batch.xsd">
+
+	<batch:job id="commonOrderToObJob">
+		<batch:step id="commonOrderTrans">
+			<batch:tasklet transaction-manager="transactionManager">
+				<batch:chunk
+					reader="commonOrderTransReader"
+					processor="commonOrderTransProcessor"
+					writer="orderTransWriter"
+					commit-interval="100" />
+			</batch:tasklet>
+		</batch:step>
+	</batch:job>
+
+	<batch:job id="callOrderToObJob">
+		<batch:step id="callOrderTrans">
+			<batch:tasklet transaction-manager="transactionManager">
+				<batch:chunk
+					reader="callOrderTransReader"
+					processor="callOrderTransProcessor"
+					writer="orderTransWriter"
+					commit-interval="100" />
+			</batch:tasklet>
+		</batch:step>
+	</batch:job>
+
+	<batch:job id="cshOrderToObJob">
+		<batch:step id="cshOrderTrans">
+			<batch:tasklet transaction-manager="transactionManager">
+				<batch:chunk
+					reader="cshOrderTransReader"
+					processor="cshOrderTransProcessor"
+					writer="orderTransWriter"
+					commit-interval="100" />
+			</batch:tasklet>
+		</batch:step>
+	</batch:job>
+
+	<batch:job id="cshCallToObJob">
+		<batch:step id="cshCallTrans">
+			<batch:tasklet transaction-manager="transactionManager">
+				<batch:chunk
+					reader="cshCallTransReader"
+					processor="cshCallTransProcessor"
+					writer="orderTransWriter"
+					commit-interval="100" />
+			</batch:tasklet>
+		</batch:step>
+	</batch:job>
+
+	<bean id="commonOrderTransReader"
+		class="org.springframework.batch.item.database.JpaPagingItemReader"
+		scope="step">
+		<property name="pageSize" value="1000" />
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+		<property name="queryString" value="from CommonOrderEntity where createdDate between :beginTime and :endTime order by id desc" />
+		<property name="parameterValues">
+			<map>
+				<entry key="beginTime" value-type="java.util.Date" value="#{jobParameters['beginTime']}" />
+				<entry key="endTime" value-type="java.util.Date" value="#{jobParameters['endTime']}" />
+			</map>
+		</property>
+	</bean>
+
+	<bean id="callOrderTransReader"
+		class="org.springframework.batch.item.database.JpaPagingItemReader"
+		scope="step">
+		<property name="pageSize" value="1000" />
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+		<property name="queryString" value="from CallOrderEntity where createdDate between :beginTime and :endTime order by id desc" />
+		<property name="parameterValues">
+			<map>
+				<entry key="beginTime" value-type="java.util.Date" value="#{jobParameters['beginTime']}" />
+				<entry key="endTime" value-type="java.util.Date" value="#{jobParameters['endTime']}" />
+			</map>
+		</property>
+	</bean>
+
+	<bean id="cshOrderTransReader"
+		class="org.springframework.batch.item.database.JpaPagingItemReader"
+		scope="step">
+		<property name="pageSize" value="1000" />
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+		<property name="queryString" value="from CshOrderEntity where createdDate between :beginTime and :endTime order by id desc" />
+		<property name="parameterValues">
+			<map>
+				<entry key="beginTime" value-type="java.util.Date" value="#{jobParameters['beginTime']}" />
+				<entry key="endTime" value-type="java.util.Date" value="#{jobParameters['endTime']}" />
+			</map>
+		</property>
+	</bean>
+
+	<bean id="cshCallTransReader"
+		class="org.springframework.batch.item.database.JpaPagingItemReader"
+		scope="step">
+		<property name="pageSize" value="1000" />
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+		<property name="queryString" value="from CshCallEntity where createdDate between :beginTime and :endTime order by id desc" />
+		<property name="parameterValues">
+			<map>
+				<entry key="beginTime" value-type="java.util.Date" value="#{jobParameters['beginTime']}" />
+				<entry key="endTime" value-type="java.util.Date" value="#{jobParameters['endTime']}" />
+			</map>
+		</property>
+	</bean>
+	
+	<bean id="commonOrderTransProcessor"
+		class="com.ford.mediadata.mgt.service.batch.processor.CommonOrderTransProcessor"
+		scope="step">
+	</bean>
+
+	<bean id="callOrderTransProcessor"
+		class="com.ford.mediadata.mgt.service.batch.processor.CallOrderTransProcessor"
+		scope="step">
+	</bean>
+
+	<bean id="cshOrderTransProcessor"
+		class="com.ford.mediadata.mgt.service.batch.processor.CshOrderTransProcessor"
+		scope="step">
+	</bean>
+
+	<bean id="cshCallTransProcessor"
+		class="com.ford.mediadata.mgt.service.batch.processor.CshCallTransProcessor"
+		scope="step">
+	</bean>
+
+	<bean id="orderTransWriter" class="org.springframework.batch.item.database.JpaItemWriter"
+		scope="step">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>
+
+</beans>

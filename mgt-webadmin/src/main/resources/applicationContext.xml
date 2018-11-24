@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+	
+
+	<import resource="common/applicationContext-scan.xml" />
+
+	<import resource="cache/ehcache-context.xml" />
+
+	<import resource="common/applicationContext-common.xml" />
+
+	<import resource="common/applicationContext-properties.xml" />
+
+	<import resource="common/applicationContext-datasource.xml" />
+
+	<import resource="repository/applicationContext-jpa.xml" />
+
+	<import resource="repository/applicationContext-tx.xml" />
+
+	<import resource="controller/dispatcher-servlet.xml" />
+
+	<import resource="batch/*.xml" />
+
+	<import resource="classpath*:/http/httpclient.xml" />
+
+	<!--mail邮件发送-->
+	<import resource="mail/mail.xml" />
+</beans>
