@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mgt-webadmin:war">
+    <output-path>$PROJECT_DIR$/mgt-webadmin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mgt-webadmin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mgt-webadmin-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mgt-webadmin:war exploded" />
+    </root>
+  </artifact>
+</component>

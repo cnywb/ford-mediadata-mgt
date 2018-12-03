@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mgt.iml" filepath="$PROJECT_DIR$/mgt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mgt-api/mgt-api.iml" filepath="$PROJECT_DIR$/mgt-api/mgt-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mgt-common/mgt-common.iml" filepath="$PROJECT_DIR$/mgt-common/mgt-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mgt-parent/mgt-parent.iml" filepath="$PROJECT_DIR$/mgt-parent/mgt-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mgt-repository/mgt-repository.iml" filepath="$PROJECT_DIR$/mgt-repository/mgt-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mgt-service/mgt-service.iml" filepath="$PROJECT_DIR$/mgt-service/mgt-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mgt-webadmin/mgt-webadmin.iml" filepath="$PROJECT_DIR$/mgt-webadmin/mgt-webadmin.iml" />
+    </modules>
+  </component>
+</project>
